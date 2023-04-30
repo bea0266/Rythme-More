@@ -61,7 +61,8 @@ module.exports = configure(function (/* ctx */) {
       },
       extendViteConf (viteConf, { isServer, isClient }) {
         Object.assign(viteConf.resolve.alias, {
-          views: path.join(__dirname, './src/views')
+          views: path.join(__dirname, './src/views'),
+          samples: path.join(__dirname, './src/samples')
         })
       },
 

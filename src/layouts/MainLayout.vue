@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-          RYTHME MORE
+          <q-btn label="RYTHME MORE" @click="router.push('/')"/>
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
@@ -46,7 +46,9 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
+import { useRouter } from 'vue-router';
 
+const router = useRouter();
 const menus = ref([
   {
     id: 1,

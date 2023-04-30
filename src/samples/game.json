@@ -1,0 +1,62 @@
+{
+    "games": [
+        {
+            "id": 1,
+            "name": "Pump it up",
+            "company": "Andamiro",
+            "songs": [
+                {   
+                    "id": 1,
+                    "name": "베토벤 바이러스",
+                    "bpm": 160,
+                    "difficults": [
+                       {  
+                          "type": "single",
+                          "level": [4, 7, 11, 16, 17, 21]    
+                       },
+                       {
+                          "type": "double",
+                          "level": [8, 18, 20, 23]
+                       }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "터키 행진곡",
+                    "bpm": 160,
+                    "difficults": [
+                       {  
+                          "type": "single",
+                          "level": [4, 7, 12, 16, 18]    
+                       },
+                       {
+                          "type": "double",
+                          "level": [7, 12, 18, 20]
+                       }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "롤링 크리스마스",
+                    "bpm": 160,
+                    "difficults": [
+                       {  
+                          "type": "single",
+                          "level": [4, 7, 12, 17]    
+                       },
+                       {
+                          "type": "double",
+                          "level": [5, 8, 11, 16, 22]
+                       }
+                    ]
+                }
+
+
+            ]
+
+        }
+
+    
+      ] 
+    
+}
