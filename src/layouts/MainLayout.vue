@@ -15,7 +15,6 @@
           <q-btn label="RYTHME MORE" @click="router.push('/')"/>
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 

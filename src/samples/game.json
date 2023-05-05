@@ -7,6 +7,7 @@
             "songs": [
                 {   
                     "id": 1,
+                    "rank": 1,
                     "name": "베토벤 바이러스",
                     "bpm": 160,
                     "difficults": [
@@ -22,6 +23,7 @@
                 },
                 {
                     "id": 2,
+                    "rank": 2,
                     "name": "터키 행진곡",
                     "bpm": 160,
                     "difficults": [
@@ -37,6 +39,7 @@
                 },
                 {
                     "id": 3,
+                    "rank": 3,
                     "name": "롤링 크리스마스",
                     "bpm": 160,
                     "difficults": [
